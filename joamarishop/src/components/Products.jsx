@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styles/Products.css';
 import '../Styles/GlobalStyle.css';
+import Neck from '../Assets/ProductItems/chicken Neck.jpg';
 
 const Products = () => {
   return (
@@ -26,6 +27,9 @@ const Products = () => {
             <li>Squid Strips</li>
             <li>Siomai</li>
           </ul>
+        </div>
+        <div className="ProductItemContainer">
+          <img src={Neck} alt="Chicken Neck" />
         </div>
       </div>
     </div>

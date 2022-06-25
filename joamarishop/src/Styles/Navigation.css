@@ -1,0 +1,71 @@
+/* FONTS */
+@font-face {
+  font-family: MeriendaRegular;
+  src: url('../Assets//Fonts/Merienda-Regular.ttf');
+}
+@font-face {
+  font-family: MeriendaBold;
+  src: url('../Assets//Fonts/Merienda-Bold.ttf');
+}
+
+.flex {
+  display: flex;
+}
+
+.justCenter {
+  justify-content: center;
+}
+
+/* Logo animation Part */
+.logoContainer img {
+  margin-top: 10em;
+  max-width: 100%;
+  animation-name: logo;
+  animation-duration: 4s;
+}
+
+@keyframes logo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes subtext {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Subtext Animation */
+
+.subtext h1 {
+  color: white;
+  font-family: MeriendaRegular;
+  margin: 0;
+  animation-delay: -1s;
+  animation-name: subtext;
+  animation-duration: 20s;
+  font-size: 3vh;
+}
+
+/* NavLinks */
+.NavigationLinks a {
+  margin-top: 1em;
+  text-decoration: none;
+  padding: 10px;
+  font-family: MeriendaRegular;
+  color: white;
+  font-size: 3vh;
+  cursor: pointer;
+}
+
+.NavigationLinks a:hover {
+  color: gray;
+  border: 1px solid white;
+  border-radius: 10px;
+}

@@ -1,21 +1,3 @@
-/* FONTS */
-@font-face {
-  font-family: MeriendaRegular;
-  src: url('../Assets//Fonts/Merienda-Regular.ttf');
-}
-@font-face {
-  font-family: MeriendaBold;
-  src: url('../Assets//Fonts/Merienda-Bold.ttf');
-}
-
-.flex {
-  display: flex;
-}
-
-.justCenter {
-  justify-content: center;
-}
-
 /* Logo animation Part */
 .logoContainer img {
   margin-top: 10em;
@@ -45,7 +27,6 @@
 
 .subtext h1 {
   color: white;
-  font-family: MeriendaRegular;
   margin: 0;
   animation-delay: -1s;
   animation-name: subtext;
@@ -58,7 +39,6 @@
   margin-top: 1em;
   text-decoration: none;
   padding: 10px;
-  font-family: MeriendaRegular;
   color: white;
   font-size: 3vh;
   cursor: pointer;

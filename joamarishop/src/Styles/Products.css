@@ -1,0 +1,23 @@
+.ProductsContainer {
+  margin-top: 50vh;
+}
+
+.ProductsHeader h1 {
+  color: white;
+  font-family: MeriendaRegular;
+  margin-bottom: 2em;
+}
+
+.listProducts ul li {
+  color: white;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  width: 10em;
+  margin-left: 15%;
+}
+.listProducts ul li:hover {
+  text-decoration: underline;
+  color: gray;
+}

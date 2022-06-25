@@ -1,0 +1,21 @@
+/* FONTS */
+@font-face {
+  font-family: MeriendaRegular;
+  src: url('../Assets//Fonts/Merienda-Regular.ttf');
+}
+@font-face {
+  font-family: MeriendaBold;
+  src: url('../Assets//Fonts/Merienda-Bold.ttf');
+}
+
+.flex {
+  display: flex;
+}
+
+.justCenter {
+  justify-content: center;
+}
+
+.merienda {
+  font-family: MeriendaRegular;
+}

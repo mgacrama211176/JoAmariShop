@@ -491,30 +491,44 @@ const Products = () => {
           </ul>
         </div>
         <div className="ProductItemContainer">
-          <img
-            src={BonelessBangus}
-            alt="BonelessBangus"
-            id="BonelessBangus"
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Boneless}` }}
-          />
-          <img
-            src={BaconChips}
-            alt="BaconChips"
-            id="BaconChips"
+          >
+            <img
+              src={BonelessBangus}
+              alt="BonelessBangus"
+              id="BonelessBangus"
+            />
+            <h2>BONELESS BANGUS MARINATED</h2>
+            <h3>P125/Pack</h3>
+          </div>
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Bacon}` }}
-          />
-          <img
-            src={Inasal}
-            alt="Inasal"
-            id="Inasal"
+          >
+            <img src={BaconChips} alt="BaconChips" id="BaconChips" />
+            <h2>Bacon Chips</h2>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Inasal}` }}
-          />
-          <img
-            src={Skin}
-            alt="Skin"
-            id="Skin"
+          >
+            <img src={Inasal} alt="Inasal" id="Inasal" />
+            <h2>CHICKEN INASAL(MARINATED)</h2>
+            <h3>P120/600-700grams </h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Skin}` }}
-          />
+          >
+            <img src={Skin} alt="Skin" id="Skin" />
+            <h2>CHICKEN SKIN(BREAST SKIN)</h2>
+            <h3>P170/kilo</h3>
+          </div>
+
           <img
             src={Neck}
             alt="Neck"
@@ -527,72 +541,104 @@ const Products = () => {
             id="Proven"
             style={{ display: ` ${imgdisplay.Proven}` }}
           />
-          <img
-            src={Oil}
-            alt="Oil"
-            id="Oil"
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Oil}` }}
-          />
-          <img
-            src={Ginabot}
-            alt="Ginabot"
-            id="Ginabot"
+          >
+            <img src={Oil} alt="Oil" id="Oil" />
+            <h2>CHICKEN OIL</h2>
+            <h3>P100/220ml bottle</h3>
+          </div>
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Ginabot}` }}
-          />
-          <img
-            src={Hipon}
-            alt="Hipon"
-            id="Hipon"
+          >
+            <img src={Ginabot} alt="Ginabot" id="Ginabot" />
+            <h2>GINABOT/BULAKLAK</h2>
+            <h3>P165/kilo</h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Hipon}` }}
-          />
-          <img
-            src={Lumpia}
-            alt="Lumpia"
-            id="Lumpia"
+          >
+            <img src={Hipon} alt="Hipon" id="Hipon" />
+            <h2>HIPON/UYAP(COOKED)</h2>
+            <h3>P50/Tub </h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Lumpia}` }}
-          />
-          <img
-            src={PorkInasal}
-            alt="Inasal"
-            id="Inasal"
+          >
+            <img src={Lumpia} alt="Lumpia" id="Lumpia" />
+            <h2> LUMPIA SHANGHAI</h2>
+            <h3>P80/Pack 25pcs</h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.PorkInasal}` }}
-          />
-          <img
-            src={KawaliBites}
-            alt="KawaliBites"
-            id="KawaliBites"
+          >
+            <img src={PorkInasal} alt="Inasal" id="Inasal" />
+            <h2>PORK BELLY INASAL(MARINATED)</h2>
+            <h3>P130/500grams</h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.KawaliBites}` }}
-          />
-          <img
-            src={Bagnet}
-            alt="Bagnet"
-            id="Bagnet"
+          >
+            <img src={KawaliBites} alt="KawaliBites" id="KawaliBites" />
+            <h2>KAWALI BITES PORK BELLY</h2>
+            <h3>P210/kilo </h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Bagnet}` }}
-          />
-          <img
-            src={Tapa}
-            alt="Tapa"
-            id="Tapa"
+          >
+            <img src={Bagnet} alt="Bagnet" id="Bagnet" />
+            <h2>PORK BAGNET</h2>
+            <h3>P120/500grams</h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Tapa}` }}
-          />
-          <img
-            src={SquidStrips}
-            alt="SquidStrips"
-            id="SquidStrips"
+          >
+            <img src={Tapa} alt="Tapa" id="Tapa" />
+            <h2>PORK TAPA(PURE UNOD)</h2>
+            <h3>P150/500grams</h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.SquidStrips}` }}
-          />
-          <img
-            src={Siomai}
-            alt="Siomai"
-            id="Siomai"
+          >
+            <img src={SquidStrips} alt="SquidStrips" id="SquidStrips" />
+            <h2>SQUID STRIPS</h2>
+            <h3>P170/kilo </h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Siomai}` }}
-          />
-          <img
-            src={Sisig}
-            alt="Sisig"
-            id="Sisig"
+          >
+            <img src={Siomai} alt="Siomai" id="Siomai" />
+            <h2> SIOMAI SA TISA(with free sauce)</h2>
+            <h3>P280/Pack 60pcs</h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Sisig}` }}
-          />
+          >
+            <img src={Sisig} alt="Sisig" id="Sisig" />
+            <h2>SISIG(COOKED)</h2>
+            <h3>P150/Pack</h3>
+          </div>
           {/* default class is none */}
           {/* <img src={Neck} alt="Chicken Neck" id="neck" className={show} /> */}
         </div>

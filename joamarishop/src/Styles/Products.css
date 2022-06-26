@@ -26,12 +26,26 @@
 .ProductItemContainer {
   position: relative;
   float: right;
-  right: 8em;
+  right: 15em;
   top: -28em;
-  max-width: 50%;
+  max-width: 70%;
 }
 
 .ProductItemContainer img {
   aspect-ratio: 1/1;
-  width: 20em;
+  width: 25em;
+  border: 1px solid white;
+  border-radius: 20px;
+  transition: ease-in;
+  animation-duration: 1s;
+  animation-name: subtext;
+}
+
+@keyframes subtext {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

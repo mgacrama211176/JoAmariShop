@@ -1,0 +1,9 @@
+.ContactContainer {
+  margin-top: 30vh;
+}
+
+.ContactContainer h1 {
+  color: white;
+  font-family: MeriendaRegular;
+  margin-bottom: 2em;
+}

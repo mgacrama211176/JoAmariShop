@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './components/Contact';
 import Navigation from './components/Navigation';
 import Products from './components/Products';
 
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Navigation />
       <Products />
+      <Contact />
     </div>
   );
 };

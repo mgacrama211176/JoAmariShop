@@ -26,7 +26,16 @@ const Navigation = () => {
           products
         </a>
 
-        <a href="#">contact</a>
+        <a
+          href="/"
+          onClick={(e) => {
+            const products = document.getElementById('contact');
+            e.preventDefault();
+            products && products.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
+          contact
+        </a>
         <a href="#">about</a>
       </div>
     </div>

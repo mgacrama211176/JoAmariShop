@@ -1,7 +1,7 @@
 /* Logo animation Part */
 .logoContainer img {
   margin-top: 10em;
-  max-width: 100%;
+  max-width: 80%;
   animation-name: logo;
   animation-duration: 4s;
 }
@@ -48,4 +48,13 @@
   color: gray;
   border: 1px solid white;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 0.32px) {
+  .logoContainer img {
+    max-width: 100%;
+  }
+  .NavigationLinks a {
+    font-size: 2vh;
+  }
 }

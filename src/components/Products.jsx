@@ -545,7 +545,8 @@ const Products = () => {
               alt="BonelessBangus"
               id="BonelessBangus"
             />
-            <h2>BONELESS BANGUS MARINATED</h2>
+            <h2>BONELESS BANGUS</h2>
+            <h3>(MARINATED)</h3>
             <h3>P125/Pack</h3>
           </div>
           <div
@@ -633,7 +634,8 @@ const Products = () => {
             style={{ display: ` ${imgdisplay.PorkInasal}` }}
           >
             <img src={PorkInasal} alt="Inasal" id="Inasal" />
-            <h2>PORK BELLY INASAL(MARINATED)</h2>
+            <h2>PORK BELLY INASAL</h2>
+            <h3>(MARINATED)</h3>
             <h3>P130/500grams</h3>
           </div>
 
@@ -678,7 +680,8 @@ const Products = () => {
             style={{ display: ` ${imgdisplay.Siomai}` }}
           >
             <img src={Siomai} alt="Siomai" id="Siomai" />
-            <h2> SIOMAI SA TISA(with free sauce)</h2>
+            <h2> SIOMAI SA TISA</h2>
+            <h3>with free sauce</h3>
             <h3>P280/Pack 60pcs</h3>
           </div>
 

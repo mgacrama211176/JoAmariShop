@@ -20,6 +20,7 @@ import Tapa from '../Assets/ProductItems/porkTapa.jpg';
 import SquidStrips from '../Assets/ProductItems/SquidStrips.jpg';
 import Siomai from '../Assets/ProductItems/Siomai.jpg';
 import Sisig from '../Assets/ProductItems/Sisig.jpg';
+import Sangyup from '../Assets/ProductItems/sangyup.jpg';
 //components
 import useScrollSnap from 'react-use-scroll-snap';
 
@@ -45,6 +46,7 @@ const Products = () => {
     SquidStrips: 'none',
     Siomai: 'none',
     Sisig: 'none',
+    Sangyup: 'none',
   });
 
   return (
@@ -76,6 +78,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -102,6 +105,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -128,6 +132,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -154,6 +159,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -180,6 +186,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -206,6 +213,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -231,6 +239,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -256,6 +265,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -281,6 +291,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -308,6 +319,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -333,6 +345,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -358,6 +371,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -383,6 +397,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -408,6 +423,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -433,6 +449,7 @@ const Products = () => {
                   SquidStrips: 'block',
                   Siomai: 'none',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -458,6 +475,7 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'block',
                   Sisig: 'none',
+                  Sangyup: 'none',
                 });
               }}
             >
@@ -483,10 +501,37 @@ const Products = () => {
                   SquidStrips: 'none',
                   Siomai: 'none',
                   Sisig: 'block',
+                  Sangyup: 'none',
                 });
               }}
             >
               Sisig
+            </li>
+            <li
+              onClick={() => {
+                setimgdisplay({
+                  Boneless: 'none',
+                  Bacon: 'none',
+                  Neck: 'none',
+                  Inasal: 'none',
+                  Skin: 'none',
+                  Proven: 'none',
+                  Oil: 'none',
+                  Ginabot: 'none',
+                  Hipon: 'none',
+                  Lumpia: 'none',
+                  PorkInasal: 'none',
+                  KawaliBites: 'none',
+                  Bagnet: 'none',
+                  Tapa: 'none',
+                  SquidStrips: 'none',
+                  Siomai: 'none',
+                  Sisig: 'none',
+                  Sangyup: 'block',
+                });
+              }}
+            >
+              Pork Sangyup cut
             </li>
           </ul>
         </div>
@@ -529,18 +574,23 @@ const Products = () => {
             <h3>P170/kilo</h3>
           </div>
 
-          <img
-            src={Neck}
-            alt="Neck"
-            id="Neck"
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Neck}` }}
-          />
-          <img
-            src={Proven}
-            alt="Proven"
-            id="Proven"
+          >
+            <img src={Neck} alt="Neck" id="Neck" />
+            <h2>CHICKEN NECK</h2>
+            <h3>P75/pack</h3>
+          </div>
+
+          <div
+            className="infoContainer"
             style={{ display: ` ${imgdisplay.Proven}` }}
-          />
+          >
+            <img src={Proven} alt="Proven" id="Proven" />
+            <h2>CHICKEN PROVEN</h2>
+            <h3>P170/kilo</h3>
+          </div>
 
           <div
             className="infoContainer"
@@ -638,6 +688,14 @@ const Products = () => {
             <img src={Sisig} alt="Sisig" id="Sisig" />
             <h2>SISIG(COOKED)</h2>
             <h3>P150/Pack</h3>
+          </div>
+          <div
+            className="infoContainer"
+            style={{ display: ` ${imgdisplay.Sangyup}` }}
+          >
+            <img src={Sangyup} alt="Sisig" id="Sisig" />
+            <h2>PORK SANGYUP CUT(PLAIN)</h2>
+            <h3>P130/500grams </h3>
           </div>
           {/* default class is none */}
           {/* <img src={Neck} alt="Chicken Neck" id="neck" className={show} /> */}

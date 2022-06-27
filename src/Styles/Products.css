@@ -127,6 +127,10 @@
 /*375 RANGE */
 @media only screen and (max-width: 375px) and (min-width: 0.32px) {
   .listProducts ul {
-    margin: 0 10px;
+    margin: 0 5px;
+  }
+  .infoContainer h2,
+  .infoContainer h3 {
+    font-size: medium;
   }
 }

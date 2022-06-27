@@ -36,3 +36,13 @@
     font-size: x-small;
   }
 }
+
+/*375 RANGE */
+@media only screen and (max-width: 375px) and (min-width: 0.32px) {
+  .InformationContainer {
+    align-items: start;
+  }
+  .ContactContainer {
+    width: 90%;
+  }
+}

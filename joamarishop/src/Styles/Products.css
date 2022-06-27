@@ -53,3 +53,15 @@
 .infoContainer {
   color: white;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .ProductItemContainer {
+    top: 0em;
+    max-width: 70%;
+  }
+  .listProducts ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+  }
+}

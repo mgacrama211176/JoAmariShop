@@ -553,7 +553,8 @@ const Products = () => {
             style={{ display: ` ${imgdisplay.Bacon}` }}
           >
             <img src={BaconChips} alt="BaconChips" id="BaconChips" />
-            <h2>Bacon Chips</h2>
+            <h2>BACON CHIPS/FLAKES</h2>
+            <h3>P130/500grams</h3>
           </div>
 
           <div

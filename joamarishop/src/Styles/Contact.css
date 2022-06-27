@@ -1,9 +1,33 @@
 .ContactContainer {
-  margin-top: 30vh;
+  height: -100vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.ContactContainer h1 {
+.InformationContainer {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CallContainer h1 {
   color: white;
   font-family: MeriendaRegular;
   margin-bottom: 2em;
+}
+
+* {
+  color: white;
+  font-family: MeriendaRegular;
+}
+
+.AddressContainer img,
+.CallContainer img,
+.EmailContainer img {
+  width: 30%;
 }

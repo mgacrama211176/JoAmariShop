@@ -29,6 +29,17 @@ const Navigation = () => {
         <a
           href="/"
           onClick={(e) => {
+            const products = document.getElementById('feedback');
+            e.preventDefault();
+            products && products.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
+          feedback
+        </a>
+
+        <a
+          href="/"
+          onClick={(e) => {
             const products = document.getElementById('contact');
             e.preventDefault();
             products && products.scrollIntoView({ behavior: 'smooth' });
@@ -36,7 +47,6 @@ const Navigation = () => {
         >
           contact
         </a>
-        <a href="#">about</a>
       </div>
     </div>
   );

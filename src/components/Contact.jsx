@@ -3,6 +3,10 @@ import '../Styles/Contact.css';
 import '../Styles/GlobalStyle.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import email from '../Assets/Icons/gmail.png';
+import contact from '../Assets/Icons/phone.png';
+import location from '../Assets/Icons/map.png';
+
 AOS.init();
 
 // You can also pass an optional settings object
@@ -36,18 +40,18 @@ const Contact = () => {
         <div className="InformationContainer">
           <div className="AddressContainer" data-aos="flip-left">
             <h1>Address</h1>
-            <img src="src/Assets/Icons/map.png" alt="" />
+            <img src={location} alt="address" />
             <h3>BRGY. UMAPAD MANDAUE CITY</h3>
             <h4>LANDMARK: UMAPAD HEALTH CENTER</h4>
           </div>
           <div className="CallContainer" data-aos="flip-left">
             <h1>Contact#</h1>
-            <img src="src/Assets/Icons/phone.png" alt="" />
+            <img src={contact} alt="contact" />
             <h3>09912308967</h3>
           </div>
           <div className="EmailContainer" data-aos="flip-left">
             <h1>Email</h1>
-            <img src="src/Assets/Icons/gmail.png" alt="" />
+            <img src={email} alt="email" />
             <h3>sadrenz22@gmail.com</h3>
           </div>
         </div>

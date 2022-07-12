@@ -5,7 +5,10 @@ const footer = () => {
   return (
     <div>
       <div className="footerContainer">
-        <h5>@All rights Reserved to MarlonG Web Development Services</h5>
+        <h5>
+          Copyright &copy; 2022 Joamarishop | Powered by MarlonG Web Development
+          Services
+        </h5>
       </div>
     </div>
   );
